@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import API from "../utils/API";
 import ProjectTable from '../components/Project/ProjectTable'
-import { withAuthenticationRequired } from "@auth0/auth0-react";
+//import { withAuthenticationRequired } from "@auth0/auth0-react";
 
 
 const Projects = () => {
@@ -73,4 +73,4 @@ const Projects = () => {
     )
 }
 
-export default withAuthenticationRequired(Projects)
+export default Projects

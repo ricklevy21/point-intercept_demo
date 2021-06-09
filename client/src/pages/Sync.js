@@ -1,7 +1,7 @@
 //dependencies
 import React from 'react'
 import SyncBtn from '../components/Sync/SyncBtn'
-import { withAuthenticationRequired } from "@auth0/auth0-react";
+//import { withAuthenticationRequired } from "@auth0/auth0-react";
 
 
 const Sync = () => {
@@ -15,4 +15,4 @@ const Sync = () => {
     )
 }
 
-export default withAuthenticationRequired(Sync)
+export default Sync
