@@ -1,0 +1,55 @@
+Project
+{
+    "_id": "000000000000000000",
+    "project": "HLC_Stormwater",
+    "transects": [
+        "111111111111111111111",
+        "222222222222222222222"
+    ]
+}
+
+Transect
+{
+    "_id": "111111111111111111",
+    "transect": "B0-12.5",
+    "date": 20200815,
+    "latitude": 39.123,
+    "longitude": -104.123,
+    "crew": [
+        "Rick",
+        "Chrissy",
+        "Becky"
+    ],
+    "points": [
+        "aaaaaaaaaaaaaaaaa",
+        "bbbbbbbbbbbbbbbbbb"
+    ]
+}
+
+Point
+
+ {
+    "_id": "aaaaaaaaaaaaaaaaaaaa",
+    "point": 0.25,
+    "ground_surface": "litter",
+    "soil_moisture_percentage": 16,
+    "soil_moisture_depth_cm": 10,
+    "shrub_density": 4,
+    "shrub_density_detail": {
+        "taxon_1": {
+            "taxon": "Prunus viginiana",
+            "stem_count": 3
+        },
+        "taxon_2": {
+            "taxon": "Rhamnus",
+            "stem_count": 1
+        }
+    },
+    "canopy_score": 48,
+    "canopy_taxa": [
+        "Populus deltoides",
+        "Prunus viginiana"
+    ],
+    "hit_1": "Bromus inermus",
+    "hit_2": "Achillea millefolium"
+}
